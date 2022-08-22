@@ -1,5 +1,3 @@
-:set paste
-i
 #ifndef LISTS_H
 #define LISTS_H
 
@@ -25,4 +23,3 @@ void free_listint(listint_t *head);
 int check_cycle(listint_t *list);
 
 #endif /* LISTS_H */
-
